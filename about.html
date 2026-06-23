@@ -1,18 +1,13 @@
 ---
 title: About
-call_to_action: Contact
+call_to_action:
 background_image_path:
 large_header: false
 show_in_navigation: true
 navigation_order: 1
 ---
 
-<div class="editable">
-	<p>
-		Serving your community for over a century, Justice Law is committed to helping people through a number of services.
-		Our services range from conveyancing, mortgages to family law. Our clients range from large businesses to first home buyers.
-	</p>
-
+<div>
 	<p>Meet the members of our capable team:</p>
 </div>
 
@@ -28,7 +23,7 @@ navigation_order: 1
 				<ul class="staff-info">
 					<li>{{ member.name }}</li>
 					<li><small>{{ member.credentials }}</small></li>
-					<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a>  ext {{ member.phone_extension }}</li>
+          <li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></li>
 				</ul>
 			</div>
 
